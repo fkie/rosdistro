@@ -1,0 +1,4 @@
+opencv3:
+    ubuntu:
+        bionic: [libopencv-dev]
+
