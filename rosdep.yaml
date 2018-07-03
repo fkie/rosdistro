@@ -1,4 +1,14 @@
+cuda-tookit:
+    ubuntu: [fkie-cuda-toolkit]
+live555:
+    ubuntu: [liblivemedia-dev]
 opencv3:
     ubuntu:
         bionic: [libopencv-dev]
+webrtc:
+    ubuntu:
+        xenial: [ros-kinetic-webrtc]
+        bionic: [ros-melodic-webrtc]
+xsens-mtsdk:
+    ubuntu: [libxsens-mtsdk-4.2-dev, libxsens-mtsdk-4.5-dev]
 
