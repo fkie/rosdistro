@@ -5,6 +5,12 @@ live555:
 opencv3:
     ubuntu:
         bionic: [libopencv-dev]
+python-grpcio:
+    ubuntu:
+        bionic: [python-grpcio]
+python-grpc-tools:
+    ubuntu:
+        bionic: [python-grpc-tools]
 webrtc:
     ubuntu:
         xenial: [ros-kinetic-webrtc]
