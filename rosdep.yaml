@@ -5,6 +5,8 @@ live555:
 opencv3:
     ubuntu:
         bionic: [libopencv-dev]
+osmium2:
+    ubuntu: [libosmium2-dev]
 python-grpcio:
     ubuntu:
         bionic: [python-grpcio]
