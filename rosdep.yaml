@@ -1,3 +1,5 @@
+aravis:
+    ubuntu: [libaravis-dev]
 cuda-tookit:
     ubuntu: [fkie-cuda-toolkit]
 live555:
