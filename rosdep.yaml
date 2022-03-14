@@ -2,6 +2,8 @@ aravis:
     ubuntu: [libaravis-dev]
 cuda-tookit:
     ubuntu: [fkie-cuda-toolkit]
+GTSAM:
+    ubuntu: [libgtsam-dev]
 live555:
     ubuntu: [liblivemedia-dev]
 opencv3:
