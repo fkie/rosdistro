@@ -3,7 +3,7 @@ aravis:
 cuda-tookit:
     ubuntu: [fkie-cuda-toolkit]
 GTSAM:
-    ubuntu: [libgtsam-dev]
+    ubuntu: [libgtsam-dev, libgtsam-unstable-dev]
 live555:
     ubuntu: [liblivemedia-dev]
 opencv3:
