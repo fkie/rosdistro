@@ -4,6 +4,8 @@ cuda-tookit:
     ubuntu: [fkie-cuda-toolkit]
 GTSAM:
     ubuntu: [libgtsam-dev, libgtsam-unstable-dev]
+librealsense2-dev:
+    ubuntu: [librealsense2-dev]
 live555:
     ubuntu: [liblivemedia-dev]
 opencv3:
