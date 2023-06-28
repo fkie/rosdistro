@@ -4,6 +4,8 @@ cuda-tookit:
     ubuntu: [fkie-cuda-toolkit]
 GTSAM:
     ubuntu: [libgtsam-dev, libgtsam-unstable-dev]
+libopen3d-dev:
+    ubuntu: [libopen3d-dev]
 librealsense2-dev:
     ubuntu: [librealsense2-dev]
 live555:
@@ -11,6 +13,8 @@ live555:
 opencv3:
     ubuntu:
         bionic: [libopencv-dev]
+python3-open3d:
+    ubuntu: [python3-open3d]
 osmium2:
     ubuntu: [libosmium2-dev]
 python-grpcio:
