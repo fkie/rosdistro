@@ -15,6 +15,8 @@ opencv3:
         bionic: [libopencv-dev]
 python3-open3d:
     ubuntu: [python3-open3d]
+python3-stomp:
+    ubuntu: [python3-stomp]
 osmium2:
     ubuntu: [libosmium2-dev]
 python-grpcio:
