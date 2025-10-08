@@ -1,34 +1,21 @@
-aravis:
-    ubuntu: [libaravis-dev]
-cuda-tookit:
-    ubuntu: [fkie-cuda-toolkit]
-GTSAM:
-    ubuntu: [libgtsam-dev, libgtsam-unstable-dev]
+nvidia-cuda:
+    ubuntu:
+        focal: [fkie-cuda-toolkit]
 libopen3d-dev:
     ubuntu: [libopen3d-dev]
 librealsense2-dev:
     ubuntu: [librealsense2-dev]
 live555:
-    ubuntu: [liblivemedia-dev]
-opencv3:
-    ubuntu:
-        bionic: [libopencv-dev]
+    ubuntu: 
+        focal: [liblivemedia-dev]
+        noble: [ros-jazzy-live555-vendor]
 python3-open3d:
     ubuntu: [python3-open3d]
 python3-stomp:
     ubuntu: [python3-stomp]
-osmium2:
-    ubuntu: [libosmium2-dev]
-python-grpcio:
+rosbags:
     ubuntu:
-        bionic: [python-grpcio]
-python-grpc-tools:
-    ubuntu:
-        bionic: [python-grpc-tools]
-webrtc:
-    ubuntu:
-        xenial: [ros-kinetic-webrtc]
-        bionic: [ros-melodic-webrtc]
+        noble: [python3-rosbags]
 xsens-mtsdk:
     ubuntu: [libxsens-mtsdk-4.2-dev, libxsens-mtsdk-4.5-dev]
 
